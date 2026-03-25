@@ -1,3 +1,7 @@
+# Version 3 — Added source tracking
+# Improvement over v2: shows which chunks the answer came from
+# Helps users verify WHERE the answer was found in the document
+
 import os
 from dotenv import load_dotenv
 from groq import Groq
