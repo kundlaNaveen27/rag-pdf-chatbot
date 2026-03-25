@@ -1,3 +1,7 @@
+# Version 2 — Upgraded chunking using LangChain RecursiveCharacterTextSplitter
+# Improvement over v1: sentence-aware splitting with 50 character overlap
+# No more mid-sentence cuts!
+
 import os
 from dotenv import load_dotenv
 from groq import Groq
