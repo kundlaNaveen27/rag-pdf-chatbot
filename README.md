@@ -22,8 +22,9 @@ sections and answers your question based only on those sections.
 - PyPDF2 — PDF text extraction
 
 ## Setup
-bash
+```bash
 pip install langchain-text-splitters sentence-transformers faiss-cpu pypdf2 groq python-dotenv
+```
 
 
 Create a .env file:
